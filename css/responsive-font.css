@@ -1,0 +1,15 @@
+body {
+   font-size: 14px; /* Размер шрифта для экранов шириной 390px и меньше */
+}
+
+@media (min-width: 391px) and (max-width: 1919px) {
+   body {
+       font-size: calc(14px + (4 * (100vw - 390px) / 1530)); /* Интерполирует размер шрифта от 14px при 390px до 18px при 1920px */
+   }
+}
+
+@media (min-width: 1920px) {
+   body {
+       font-size: 18px; /* Размер шрифта для экранов шириной 1920px и больше */
+   }
+}

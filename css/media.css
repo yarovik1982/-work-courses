@@ -1,0 +1,101 @@
+@media(max-width:1441px){
+   .container{
+      max-width: 1280px;
+      padding: 0 10px;
+   }
+   .hero-container {
+      padding-bottom: 100px;
+   }
+   .header-top-baner-text{
+      font-size: 14px;
+      padding: 0.714em 0;
+   }
+   .nav-list-item-link{
+      font-size: 14px;
+      padding: 0.857em 1.428em;
+   }
+   .nav-auth-btn {
+      font-size: 14px;
+      padding: 12px 24px;
+   }
+   .hero-body-header{
+      font-size: calc(10px + 1.5vw);
+      padding: .25em .5em .25em .25em;
+   }
+   .hero-body-title {
+      /* font-size: 36px; */
+      font-size: calc(10px + 1.5vw);
+   }
+   .hero-body-header-icon{
+      
+      width: 48px;
+      height: 48px;
+   }
+   .section_title{
+      font-size: 38px;
+   }
+   
+   .section_subtitle{
+      font-size: 16px;
+   }
+   .cestion_card-header::after{
+      font-size: 60px;
+   }
+   .section_card-title{
+      font-size: 20px;
+   }
+   .section_card-subtitle{
+      font-size: 16px;
+   }
+}
+
+@media(max-width:821px){
+   .nav-list{
+      display: none;
+   }
+}
+
+@media(max-width:769px){
+   .section_row--flex{
+      flex-direction: column;
+      align-items: start;
+   }
+   .section_btn{
+      margin-top: 20px;
+      padding: 12px 20px;
+   }
+   .section_link{
+      font-size: 14px;
+   }
+   .cestion_card-header::after{
+      font-size: 50px;
+   }
+   .section_card-subtitle{
+      font-size: 14px;
+   }
+   .section_row__inner-pos-right{
+      display: flex;
+      justify-content: end;
+   }
+   .section_card-btn{
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+}
+
+@media(max-width:576px){
+   .header-top-baner-text{
+      font-size: 12px;
+   }
+  
+}
+
+@media(max-width:381px){
+   .header-top-baner-text{
+      font-size: 10px;
+   }
+  
+}

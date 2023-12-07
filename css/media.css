@@ -93,6 +93,16 @@
       width: 75%;
    }
    .section_card-info{
+      flex-direction: column;
+      align-items: start;
+   }
+   .section_card-info__item{
+      width: 100%;
+   }
+   .section_card-subtitle__bold{
+      margin-left: 0;
+   }
+   .section_card-info__item:last-child{
       display: block;
    }
 }
@@ -101,7 +111,9 @@
    .header-top-baner-text{
       font-size: 12px;
    }
-  
+   .section_card{
+      width: 100%;
+   }
 }
 
 @media(max-width:381px){

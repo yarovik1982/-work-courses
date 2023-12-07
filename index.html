@@ -12,6 +12,7 @@
    <link rel='stylesheet' href='./css/index.css'>
    <link rel="stylesheet" href="./css/responsive-font.css">
    <link rel="stylesheet" href="./css/media.css">
+   <script type="module" src="./js/index.js" defer></script>
    <title>Document</title>
 </head>
 
@@ -58,8 +59,10 @@
                </li>
             </ul>
             <div class="nav-auth">
-               <button id="register" class="nav-auth-btn" aria-translate data-eng="Sign Up" data-ru="Регистрация">Sign Up</button>
-               <button id="login" class="nav-auth-btn nav-auth-btn-active" aria-translate data-eng="Login" data-ru="Авторизация">Login</button>
+               <button id="register" class="nav-auth-btn" aria-translate data-eng="Sign Up" data-ru="Регистрация">Sign
+                  Up</button>
+               <button id="login" class="nav-auth-btn nav-auth-btn-active" aria-translate data-eng="Login"
+                  data-ru="Авторизация">Login</button>
             </div>
          </div>
       </nav>
@@ -137,7 +140,8 @@
                <h2 class="section_title section_title__pos--left">Преимущества</h2>
                <div class="section_header section_row--flex">
                   <p class="section_subtitle">
-                     Сотрудничество с нами - это выгодно! Мы предлагаем высокое качество, надежность, инновационные решения и отличный сервис. Присоединяйтесь к нам!
+                     Сотрудничество с нами - это выгодно! Мы предлагаем высокое качество, надежность, инновационные
+                     решения и отличный сервис. Присоединяйтесь к нам!
                   </p>
                   <a href="#" class="section_btn section_link">View All</a>
                </div>
@@ -245,7 +249,8 @@
                            Interactive Learning Environment
                         </h3>
                         <p class="section_card-subtitle">
-                           Collaborate with fellow learners, exchanging ideas and feedback to enhance your understanding.
+                           Collaborate with fellow learners, exchanging ideas and feedback to enhance your
+                           understanding.
                         </p>
                      </div>
                      <div class="section_card-footer">
@@ -259,7 +264,7 @@
                </div>
             </div>
          </div>
-        
+
       </section>
 
       <section id="courses">
@@ -273,20 +278,221 @@
                   </p>
                   <a href="#" class="section_btn section_link">View All</a>
                </div>
-               <div class="section_cards section_row--flex-wrap section_row--flex__gap-30">
-                  <div class="section_card section_card-course-item">
+               <div class="section_cards section_grid">
 
+                  <div class="course--1 section_card">
+                     <div class="section_card-header">
+                        <div class="section_card-img">
+                           <img src="./images/courses/course-1.png" alt="">
+                        </div>
+                        <div class="section_card-info ">
+                           <div class="section_card-info__item">
+                              <p class="section_card-subtitle course-duration">
+                                 4 Weeks
+                              </p>
+                              <p class="section_card-subtitle course-level">
+                                 Beginner
+                              </p>
+                           </div>
+                           <div class="section_card-info__item">
+                              <p class="section_card-subtitle__bold course-autor">
+                                 By John Smith
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="section_card-body">
+                        <div class="section_card-title">
+                           Web Design Fundamentals
+                        </div>
+                        <div class="section_card-subtitle">
+                           Learn the fundamentals of web design, including HTML, CSS, and responsive design principles. Develop the skills to create visually appealing and user-friendly websites.
+                        </div>
+                     </div>
+                     <div class="section_card-footer">
+                        <button class="card_btn--w100">Get it Now</button>
+                     </div>
                   </div>
+
+                  <div class="course--2 section_card">
+                     <div class="section_card-header">
+                        <div class="section_card-img">
+                           <img src="./images/courses/course-2.png" alt="">
+                        </div>
+                        <div class="section_card-info ">
+                           <div class="section_card-info__item">
+                              <p class="section_card-subtitle course-duration">
+                                 6 Weeks
+                              </p>
+                              <p class="section_card-subtitle course-level">
+                                 Intermediate
+                              </p>
+                           </div>
+                           <div class="section_card-info__item">
+                              <p class="section_card-subtitle__bold course-autor">
+                                 By Emily Johnson
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="section_card-body">
+                        <div class="section_card-title">
+                           UI/UX Design
+                        </div>
+                        <div class="section_card-subtitle">
+                           Master the art of creating intuitive user interfaces (UI) and enhancing user experiences (UX). Learn design principles, wireframing, prototyping, and usability testing techniques.
+                        </div>
+                     </div>
+                     <div class="section_card-footer">
+                        <button class="card_btn--w100">Get it Now</button>
+                     </div>
+                  </div>
+
+                  <div class="course--3 section_card">
+                     <div class="section_card-header">
+                        <div class="section_card-img">
+                           <img src="./images/courses/course-3.png" alt="">
+                        </div>
+                        <div class="section_card-info ">
+                           <div class="section_card-info__item">
+                              <p class="section_card-subtitle course-duration">
+                                 8 Weeks
+                              </p>
+                              <p class="section_card-subtitle course-level">
+                                 Intermediate
+                              </p>
+                           </div>
+                           <div class="section_card-info__item">
+                              <p class="section_card-subtitle__bold course-autor">
+                                 By David Brown
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="section_card-body">
+                        <div class="section_card-title">
+                           Mobile App Development
+                        </div>
+                        <div class="section_card-subtitle">
+                           Dive into the world of mobile app development. Learn to build native iOS and Android applications using industry-leading frameworks like Swift and Kotlin.
+                        </div>
+                     </div>
+                     <div class="section_card-footer">
+                        <button class="card_btn--w100">Get it Now</button>
+                     </div>
+                  </div>
+
+                  <div class="course--4 section_card">
+                     <div class="section_card-header">
+                        <div class="section_card-img">
+                           <img src="./images/courses/course-4.png" alt="">
+                        </div>
+                        <div class="section_card-info ">
+                           <div class="section_card-info__item">
+                              <p class="section_card-subtitle course-duration">
+                                 10 Weeks
+                              </p>
+                              <p class="section_card-subtitle course-level">
+                                 Beginner
+                              </p>
+                           </div>
+                           <div class="section_card-info__item">
+                              <p class="section_card-subtitle__bold course-autor">
+                                 By Sarah Thompson
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="section_card-body">
+                        <div class="section_card-title">
+                           Graphic Design for Beginners
+                        </div>
+                        <div class="section_card-subtitle">
+                           Discover the fundamentals of graphic design, including typography, color theory, layout design, and image manipulation techniques. Create visually stunning designs for print and digital media.
+                        </div>
+                     </div>
+                     <div class="section_card-footer">
+                        <button class="card_btn--w100">Get it Now</button>
+                     </div>
+                  </div>
+
+                  <div class="course--5 section_card">
+                     <div class="section_card-header">
+                        <div class="section_card-img">
+                           <img src="./images/courses/course-5.png" alt="">
+                        </div>
+                        <div class="section_card-info ">
+                           <div class="section_card-info__item">
+                              <p class="section_card-subtitle course-duration">
+                                 10 Weeks
+                              </p>
+                              <p class="section_card-subtitle course-level">
+                                 Intermediate
+                              </p>
+                           </div>
+                           <div class="section_card-info__item">
+                              <p class="section_card-subtitle__bold course-autor">
+                                 By Michael Adams
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="section_card-body">
+                        <div class="section_card-title">
+                           Front-End Web Development
+                        </div>
+                        <div class="section_card-subtitle">
+                           Become proficient in front-end web development. Learn HTML, CSS, JavaScript, and popular frameworks like Bootstrap and React. Build interactive and responsive websites.
+                        </div>
+                     </div>
+                     <div class="section_card-footer">
+                        <button class="card_btn--w100">Get it Now</button>
+                     </div>
+                  </div>
+
+                  <div class="course--6 section_card">
+                     <div class="section_card-header">
+                        <div class="section_card-img">
+                           <img src="./images/courses/course-6.png" alt="">
+                        </div>
+                        <div class="section_card-info ">
+                           <div class="section_card-info__item">
+                              <p class="section_card-subtitle course-duration">
+                                 6 Weeks
+                              </p>
+                              <p class="section_card-subtitle course-level">
+                                 Advance
+                              </p>
+                           </div>
+                           <div class="section_card-info__item">
+                              <p class="section_card-subtitle__bold course-autor">
+                                 By Jennifer Wilson
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="section_card-body">
+                        <div class="section_card-title">
+                           Advanced JavaScript
+                        </div>
+                        <div class="section_card-subtitle">
+                           Take your JavaScript skills to the next level. Explore advanced concepts like closures, prototypes, asynchronous programming, and ES6 features. Build complex applications with confidence.
+                        </div>
+                     </div>
+                     <div class="section_card-footer">
+                        <button class="card_btn--w100">Get it Now</button>
+                     </div>
+                  </div>
+
                </div>
             </div>
          </div>
       </section>
 
-     
+
    </main>
    <footer class='footer'>
-     
-      </div>
+
    </footer>
 </body>
 <html />

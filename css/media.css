@@ -84,6 +84,17 @@
       align-items: center;
       justify-content: center;
    }
+   .section_grid{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+   .section_card{
+      width: 75%;
+   }
+   .section_card-info{
+      display: block;
+   }
 }
 
 @media(max-width:576px){

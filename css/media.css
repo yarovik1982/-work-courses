@@ -84,7 +84,7 @@
       align-items: center;
       justify-content: center;
    }
-   .section_grid{
+   .section_grid , .section_grid__row-2{
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -105,6 +105,11 @@
    .section_card-info__item:last-child{
       display: block;
    }
+   .section_card-flex a{
+      padding: 14px 16px;
+      margin-left: auto;
+      margin-top: 0;
+   }
 }
 
 @media(max-width:576px){
@@ -113,6 +118,12 @@
    }
    .section_card{
       width: 100%;
+   }
+   .section_card-flex a{
+      padding: 10px 12px;
+   }
+   .section_card-flex span{
+      margin-left: 8px;
    }
 }
 

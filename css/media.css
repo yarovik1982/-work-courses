@@ -1,8 +1,8 @@
 @media(max-width:1441px){
-   .container{
+   /* .container{
       max-width: 1280px;
       padding: 0 10px;
-   }
+   } */
    .hero-container {
       padding-bottom: 100px;
    }
@@ -49,7 +49,20 @@
       font-size: 16px;
    }
 }
-
+@media(max-width:1101px){
+   .section_card-info{
+      flex-direction: column;
+      align-items: start;
+   } 
+   .section_card-subtitle__bold{
+      margin-left: 0;
+      width: 100%;
+   }
+   .section_card-info__item{
+      width: 100%;
+   }
+  
+}
 @media(max-width:821px){
    .nav-list{
       display: none;

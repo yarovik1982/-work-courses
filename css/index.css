@@ -341,7 +341,6 @@ padding:0 15px;
 .section_card {
    padding: 50px;
    border-radius: 12px;
-   /* background: #FFF; */
    background: #ccc;
    display: flex;
    flex-direction: column;

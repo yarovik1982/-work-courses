@@ -48,6 +48,32 @@
    .section_card-subtitle{
       font-size: 16px;
    }
+   .section_subtitle__short{
+      max-width: 809px;
+   }
+   .section_btn__hover{
+      padding: 12px 24px;
+      font-size: 14px;
+      white-space: nowrap;
+   }
+   .pricing_title{
+      font-size: 18px;
+   }
+   .pricing_cost{
+      font-size: 60px;
+   }
+   .pricing_cost>span{
+      font-size: 16px;
+   }
+   .pricing_features{
+      font-size: 18px;
+   }
+   .pricing_option{
+      font-size: 14px;
+   }
+   .prising_getStarted{
+      font-size: 14px;
+   }
 }
 @media(max-width:1101px){
    .section_card-info{
@@ -61,7 +87,16 @@
    .section_card-info__item{
       width: 100%;
    }
-  
+}
+@media(max-width:993px){
+
+   .section_btn__d-none{
+      display: none;
+   }
+   .btn-read{
+      display: block;
+      margin-left: auto;
+   }
 }
 @media(max-width:821px){
    .nav-list{
@@ -143,7 +178,14 @@
       padding: 15px;
    }
 }
-
+@media(max-width:401px){
+   .pricing_card{
+      min-width: 300px;
+   }
+  .hero-body-btn{
+   padding: 12px 14px
+  }
+}
 @media(max-width:381px){
    .header-top-baner-text{
       font-size: 10px;

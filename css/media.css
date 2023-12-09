@@ -21,6 +21,7 @@
    .hero-body-header{
       font-size: calc(10px + 1.5vw);
       padding: .25em .5em .25em .25em;
+      align-items: center;
    }
    .hero-body-title {
       /* font-size: 36px; */

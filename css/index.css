@@ -35,7 +35,9 @@ max-width:1627px;
 margin:0 auto;
 padding:0 15px;
 }
-
+section{
+   margin-bottom: 150px;
+}
 /* .wrapper {
 } */
 .header {
@@ -649,7 +651,11 @@ padding:0 15px;
 .pricing_option>span>svg{
    width: 20px;
    height: 20px;
+   
 }
+/* .pricing_option>span svg use{
+   fill:blue
+} */
 .prising_getStarted {
    padding: 20px 24px;
    border-radius: 0px 0px 8px 8px;
@@ -666,4 +672,126 @@ padding:0 15px;
    font-weight: 600;
    line-height: 150%; /* 27px */
    border: 0;
+}
+
+
+.faq__flex {
+   padding: 100px 0;
+   background-color: #fff;
+   display: flex;
+}
+.faq__flex-item {
+   padding: 0 100px;
+}
+.flex-item__w-min .flex-item__container{
+   max-width: 507px;
+   /* width: 37.935%; */
+   /* width: 40%;
+   min-width: 408px; */
+}
+.flex-item__title {
+   color: #262626;
+   font-family: 'Be Vietnam Pro',sans-serif;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 120%; /* 57.6px */
+}
+.flex-item__subtitle {
+}
+.flex-item__btnSeaAll {
+}
+.flex-item__w-max {
+   width: 71.348%;
+}
+.accordeon {
+   padding: 50px 0;
+   border: 1px solid #dddddd;
+}
+.accordeon-item {
+   padding: 0 50px;
+}
+.accordeon-item:not(:last-child){
+   margin-bottom: 30px;
+}
+.accordeon-header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 30px 0;
+   cursor:pointer;
+}
+.accordeon-question {
+   
+}
+.accordeon-body {
+   display: none;
+   padding: 50px 0;
+}
+.accordeon-item.active .accordeon-body{
+   display: block;
+}
+.accordeon-answer {
+   margin-bottom: 50px;
+}
+.arrowRight {
+   width: 28px;
+   height: 28px;
+   fill: #262626;
+}
+.accordeon-btn {
+   width: 28px;
+   height: 28px;
+   border-radius: 8px;
+   background: #FFF4E5;
+   border: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.cross{
+   fill:#262626;
+   transform: rotate(45deg);
+   -webkit-transform: rotate(45deg);
+   -moz-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   -o-transform: rotate(45deg);
+   transition: all .3s linear;
+   -webkit-transition: all .3s linear;
+   -moz-transition: all .3s linear;
+   -ms-transition: all .3s linear;
+   -o-transition: all .3s linear;
+}
+.accordeon-item.active .cross{
+   transform: rotate(0deg);
+   -webkit-transform: rotate(0deg);
+   -moz-transform: rotate(0deg);
+   -ms-transform: rotate(0deg);
+   -o-transform: rotate(0deg);
+}
+.accordeon-link{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px 30px;
+   border-radius: 8px;
+   border: 1px solid var(--white-95, #F1F1F3);
+   background: var(--white-97, #F7F7F8);
+   color: var(--grey-20, #333);
+   font-family: 'Be Vietnam Pro',sans-serif;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 150%; /* 27px */
+}
+.accordeon-link button{
+   width: 28px;
+   height: 28px;
+   background-color: #fff;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border: 0;
+   border-radius: 100%;
 }

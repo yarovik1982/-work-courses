@@ -1,4 +1,4 @@
-// import { removeClass } from "./modules/removeClass.js";
+// // import { removeClass } from "./modules/removeClass.js";
 
 import { useAccordeon } from "./modules/useAccordeon.js";
 console.log(window.innerWidth);
@@ -21,3 +21,4 @@ function main(elem) {
    updateWidth();
  }
  main('.info')
+

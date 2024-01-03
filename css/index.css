@@ -1,7 +1,9 @@
 :root{
    --base-w-container:1627px;
+   --base-bg:#f7f7f8;
 }
-
+@import 'media.css';
+@import 'bootstrap-grid.css';
 *{
 margin:0px;
 padding:0px;
@@ -15,9 +17,13 @@ font-family: 'Be Vietnam Pro', sans-serif;
 font-size: calc(14px - 4 * (100vw) / 1920);
 }
 body{
-   background: #f7f7f8;
+   background: #07074b;
    overflow-x: hidden;
    /* font-size: 14px; */
+}
+.container{
+   max-width: var(--base-w-container);
+   padding:0 1.5rem;
 }
 .info {
    font-size: 1.2rem;
@@ -40,12 +46,7 @@ text-decoration:none;
 button{
    cursor: pointer;
 }
-.container{
-/* max-width:var(--base-w-container); */
-max-width:1627px;
-margin:0 auto;
-padding:0 15px;
-}
+
 section{
    margin-bottom: 150px;
 }
@@ -362,7 +363,7 @@ section{
 .section_card {
    padding: 50px;
    border-radius: 12px;
-   background: #ccc;
+   background: #FFF;
    display: flex;
    flex-direction: column;
 }
@@ -415,10 +416,11 @@ section{
 .section_card-subtitle{
    color: #4C4C4D;
    font-family: 'Be Vietnam Pro',sans-serif;
-   font-size: 18px;
+   font-size: 1.8rem;
    font-style: normal;
    font-weight: 400;
    line-height: 150%; /* 27px */
+   margin-bottom: 1.4rem;
 }
 .section_card-info{
    display: flex;
@@ -585,7 +587,7 @@ section{
    min-height: 100px;
 }
 .section_card{
-   box-shadow: 0 0 12px 5px rgba(0,0,0,.7);
+   box-shadow: 0 0 12px 5px rgba(211, 211, 211, .7);
 }
 /* .pricing_card+.pricing_card{
    margin-left: 30px;
@@ -690,6 +692,7 @@ section{
    padding: 100px 0;
    background-color: #fff;
    display: flex;
+   flex-direction: column;
 }
 .faq__flex-item {
    padding: 0 100px;

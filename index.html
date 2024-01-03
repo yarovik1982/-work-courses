@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Inter:wght@400;500&display=swap"
       rel="stylesheet">
    <link rel='stylesheet' href='./css/index.css'>
+   <link rel="stylesheet" href="./css/bootstrap-grid.css">
    <link rel="stylesheet" href="./css/responsive-font.css">
    <link rel="stylesheet" href="./css/media.css">
    <script type="module" src="./js/index.js" defer></script>
@@ -305,7 +306,72 @@
                   </p>
                   <a href="#" class="section_btn section_link">View All</a>
                </div>
-               <div class="section_cards section_grid">
+
+               <div class="row row-cols-1 row-cols-md-2 g-5">
+                  <div class="col">
+                    <div class="card p-5 section_card">
+                     <div class="section_card-img">
+                        <img src="./images/courses/course-1.png" alt="">
+                     </div>
+                     <div class="section_card-info ">
+                        <div class="section_card-info__item">
+                           <p class="section_card-subtitle course-duration">
+                              4 Weeks
+                           </p>
+                           <p class="section_card-subtitle course-level">
+                              Beginner
+                           </p>
+                        </div>
+                        <div class="section_card-info__item">
+                           <p class="section_card-subtitle__bold course-autor">
+                              By John Smith
+                           </p>
+                        </div>
+                     </div>
+                      <!-- <img src="./images/courses/course-1.png" class="card-img-top" alt=""> -->
+                      <div class="card-body">
+                        <div class="section_card-title">
+                           Web Design Fundamentals
+                        </div>
+                        <div class="section_card-subtitle">
+                           Learn the fundamentals of web design, including HTML, CSS, and responsive design principles.
+                           Develop the skills to create visually appealing and user-friendly websites.
+                        </div>
+                      </div>
+                      <div class="section_card-footer">
+                        <button class="card_btn--w100">Get it Now</button>
+                     </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Заголовок карточки</h5>
+                        <p class="card-text">Это более длинная карта С вспомогательным текстом ниже в качестве естественного перехода к дополнительному контенту. Этот контент немного длиннее.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Заголовок карточки</h5>
+                        <p class="card-text">Это более длинная карта С вспомогательным текстом ниже в качестве естественного перехода к дополнительному контенту.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card">
+                      <img src="..." class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Заголовок карточки</h5>
+                        <p class="card-text">Это более длинная карта С вспомогательным текстом ниже в качестве естественного перехода к дополнительному контенту. Этот контент немного длиннее.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               <!-- <div class="section_cards section_grid">
 
                   <div class="course--1 section_card">
                      <div class="section_card-header">
@@ -519,7 +585,7 @@
                      </div>
                   </div>
 
-               </div>
+               </div> -->
             </div>
          </div>
       </section>
@@ -793,9 +859,9 @@
          </div>
       </section>
 
-      <section id="faq">
+      <section id="faq" >
          <div class="faq">
-            <div class="container">
+            <div class="container-fluid">
                <div class="faq__flex">
                   <div class="faq__flex-item flex-item__w-min">
                      <div class="flex-item__container">
@@ -957,3 +1023,5 @@
    </footer>
 </body>
 <html />
+
+

@@ -97,7 +97,12 @@
       display: block;
       margin-left: auto;
    }
+   .faq__flex{
+      display: flex;
+      flex-direction: column;
+   }
 }
+
 @media(max-width:821px){
    .nav-list{
       display: none;

@@ -74,6 +74,26 @@
    .prising_getStarted{
       font-size: 14px;
    }
+   .faq__content {
+      grid-template-columns: 408px minmax(631px, 1fr);
+      padding: 80px;
+      gap: 80px;
+   }
+   .flex-item__title {
+      font-size: 3.5rem;
+   }
+}
+
+@media(max-width:1221px){
+   .faq__content{
+      grid-template-columns: 1fr 1.5fr;
+   }
+   .flex-item__title {
+      font-size: 3rem;
+   }
+   .flex-item__subtitle{
+      font-size: 1.5rem;
+   }
 }
 @media(max-width:1101px){
    .section_card-info{
@@ -97,9 +117,22 @@
       display: block;
       margin-left: auto;
    }
-   .faq__flex{
-      display: flex;
-      flex-direction: column;
+   .faq__content{
+      grid-template-columns: 1fr;
+      justify-content: center;
+      padding: 2em;
+   }
+   .accordion{
+      padding: 1.6em 0;
+   }
+   .accordion-panel {
+      padding: 0 1.6em;
+   }
+   .accordion-title{
+      padding: 0 ;
+   }
+   .accordion-content{
+      padding: 1.6em 0 0 0;
    }
 }
 
